@@ -1,35 +1,34 @@
 # ev-teardown-analysis
 
-汽车电子总成拆解对标分析的 Agent Skill。默认产出「机械 / 材料 / 成本」三张表 + 结论 + 补充取证需求。
+汽车电子总成拆解对标分析的 Agent Skill。默认产出「机械 / 材料 / 成本 / 总装工艺」四张表 + 结论 + 补充取证需求。
 
 与 `vehicle-data-hub-main` 无耦合，可独立使用。
+
+> 🌐 English version: [README.en.md](README.en.md)
 
 ## 目录
 
 ```
 ev-teardown-analysis/
-├── README.md
-├── .github/skills/ev-teardown-benchmark/
-│   ├── SKILL.md                       # 主流程（入口）
-│   ├── references/
-│   │   ├── output-template.md         # 输出骨架、句式规范、反面示例
-│   │   ├── evidence-rules.md          # 证据分级、八类字段陷阱、跨证据"合力"检查、候选分级
-│   │   ├── part-mapping.md            # 件号→角色推断、查漏清单、边界判定
-│   │   ├── surface-feature-matrix.md  # 表面特征逐面功能矩阵、菱形格纹判定、空腔密度反算
-│   │   └── mechanism-library.md       # 热/电/紧固/密封/腐蚀/工艺/成本公式（含 TIM 泵出等退化机制）
-│   └── scripts/
-│       └── part_table_check.py        # 清单自检 + 质量占比
-└── samples/
-    └── ex90-rear-inverter-parts.csv   # 12 件号样例（本次分析用）
+├── README.md / README.en.md
+├── .github/skills/
+│   ├── ev-teardown-benchmark/         # 拆解对标分析（四表）
+│   │   ├── SKILL.md                   # 主流程（入口）
+│   │   ├── references/                # 输出模板、证据规则、件号映射、表面特征矩阵、机理库、基准来源、架构发现
+│   │   └── scripts/                   # part_table_check.py 清单自检 / surface_scan.py 表面特征扫描
+│   └── should-cost-engineering/       # Should-Cost 核算（7 表工作簿，活公式）
+│       ├── SKILL.md
+│       └── references/                # 工作簿规格、工艺成本模型
+├── docs/                              # 大白话安装使用说明
+├── tests/                             # 脚本测试（fixtures 为脱敏演示数据）
+└── tools/                             # 通用工具（工作簿生成、清单展开、报告导出、CS 记录解析等）
 ```
+
+> 拆解照片与零件清单样例**不在仓库中**——`.gitignore` 白名单只上传 skill 与通用工具，使用时自备清单与照片。
 
 ## 安装
 
-**方式一：直接用这个文件夹当工作区（推荐）**
-
-在 VS Code 中打开 `c:\cjn\ev-teardown-analysis`，`.github/skills/` 会被自动识别。
-
-**方式二：装到个人环境（跨项目可用）**
+**装到个人环境（跨项目可用）**
 
 ```powershell
 # Windows
@@ -54,10 +53,10 @@ cp -R .github/skills/ev-teardown-benchmark ~/.copilot/skills/
 3. 有 CSV/Excel 时先跑自检：
 
 ```bash
-python .github/skills/ev-teardown-benchmark/scripts/part_table_check.py samples/ex90-rear-inverter-parts.csv
+python .github/skills/ev-teardown-benchmark/scripts/part_table_check.py <零件清单.csv>
 ```
 
-样例输出会给出：12 个件号合计 6.873 kg、各件质量占比、材料组汇总、`A2822800057` 的尺寸字段错位告警、`A2822800108` 缺 `fastener_weight`、以及"清单中未出现功率模块/散热关键词"的查漏提示。
+输出会给出：件号合计质量、各件质量占比、材料组汇总、尺寸字段错位告警、缺字段件、以及"清单中未出现功率模块/散热关键词"的查漏提示。
 
 ## 典型请求
 
@@ -85,7 +84,7 @@ python .github/skills/ev-teardown-benchmark/scripts/part_table_check.py samples/
 
 ## 设计取舍
 
-- **默认精简**：三表 + 结论 + 5 项取证。逐项深入分析与工艺步骤表需显式要求，避免每次都产出超长报告。
+- **默认精简**：四表 + 结论 + 5 项取证。逐项深入分析与工艺步骤表需显式要求，避免每次都产出超长报告。
 - **成本表不编数字**：无报价/产量/良率时只给驱动因素与公式模板，避免被当成真实成本基线引用。
 - **候选分级**：证据不足时并列 A/B/C 候选并给出"一刀切开"的证据，而不是二选一猜结论。
 - **稳态之外必查退化**：热路径结论只覆盖一维稳态；厚 TIM、无基板器件、大平面界面、相变材料、功率循环等组合出现时，必须补泵出/蠕变/疲劳等寿命机制，并声明模型未覆盖项。
