@@ -25,6 +25,7 @@
 
 # 放行：根目录说明文件
 !/README.md
+!/README.en.md
 !/LICENSE
 !/requirements.txt
 
