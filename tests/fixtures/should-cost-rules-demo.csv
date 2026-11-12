@@ -1,0 +1,4 @@
+CS Part,Name,Quantity,Part Weight,Fastener Weight,Total Weight (kg),Material Group,Material Species,Material Species (Tested),Manufacturer,Marking Number,Length,Width,Height,Thickness (T),Part Type,Number of Interface,Price Status,Purchased Price
+TEST-BUY1,"PCB, Rules Test Assembly",1,0.1,0.005,0.105,EE Components,PCB,,,,,,,,Assembly,2,Actual Procurement,15.5
+TEST-BUY2,"MOSFET, Rules Test Power Module",4,0.087,,0.348,Mixed Material,"Brass Unknown,Copper Unknown",,,,71,19,18,,Assembly,,,
+TEST-MAKE1,"Housing, Rules Test",1,2.0,,2.0,Metal,Aluminium ENAC43500,,,,252,385,92,,Part,,,

@@ -1,0 +1,6 @@
+CS Part,Quantity,Part Weight,Fastener Weight,Total Weight (kg),Material Group,Material Species,Material Species (Tested),Manufacturer,Marking Number,Length,Width,Height,Thickness (T),Part Type,Number of Interface
+TEST-0001,1,0.1,0.005,,Mixed Material,"Aluminium Unknown, Sealants",,,,,,,,Assembly,2
+TEST-0002,1,0.2,0.01,0.25,Metal,Aluminium ENAC43500,,,,200,120,40,,Part,
+TEST-0002,1,0.2,0.01,0.25,Metal,Aluminium ENAC43500,,,,200,120,40,,Part,
+TEST-0003,1,0.144,0.023,0.167,Mixed Material,"Aluminium Unknown, Sealants",,,42017245,6,235,235,1.3,Assembly,13
+TEST-0004,1,0.05,0,0.05,EE Components,PCB,,,,10,10,10,10,Part,2

@@ -1,0 +1,6 @@
+# 分析 CSV 零件清单不需要任何第三方包（脚本只用标准库）。
+# 仅当输入为 .xlsx / .xlsm 时需要 openpyxl（脚本自身也用它读表）。
+openpyxl>=3.1
+
+# 仅当需要导出 Excel / Word 报告（tools/export_report.py）时需要：
+python-docx>=1.1

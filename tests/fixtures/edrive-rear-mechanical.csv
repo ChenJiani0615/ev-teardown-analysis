@@ -1,0 +1,91 @@
+﻿CS Part,Name,Quantity,Part Weight,Fastener Weight,Total Weight (kg),Material Group,Material Species,Material Species (Tested),Manufacturer,Marking Number,Length,Width,Height,Thickness (T),Part Type,Number of Interface,Depth
+A2822800101,"Breather, Rear E-Drive",2,0.002,0.001,0.003,Mixed Material,"Plastic PBT,Paper",,,,,,13.35,,Assembly,,3
+A2822800104,"Breather 2, Rear E-Drive",1,0.002,,0.002,Mixed Material,"Plastic PC,Plastic PC-ABS,Sealants",,,,21,20,16.8,,Assembly,1,3
+A2822800223,"Cover, Coolant Channel Rear E-Drive",1,0.181,0.033,0.214,Mixed Material,"Aluminium ENAW 5052,Sealants",,VOLVO,32280536,291,168,9,1.4,Part,10,3
+A2821200980,"PCB, Rear E-Drive Oil Pump",1,0.015,,0.015,EE Components,PCB,,,,47.2,45.82,20.5,,Assembly,,4
+A2822800340,"Top Cover, Rear E-Drive Oil Pump",1,0.029,0.001,0.03,Mixed Material,"Plastic PBT-I-GF30,Sealants,Metal Unknown",,,,,,34.58,,Assembly,,4
+A2822800341,"Thermal Paste, Rear E-Drive Oil Pump",1,0.014,,0.014,Adhesives & Sealants,Sealants,,,,,,,,Part,,4
+A2822800342,"Holder, Rear E-Drive Oil Pump PCB",1,0.002,0.001,0.003,Plastic,Plastic PA66-GF30,,,,,,4,,Part,,4
+A2822800343,"Pump Unit, Rear E-Drive Oil",1,0.668,,0.668,Electric Motor,"Pump,Steel Unknown,Aluminium Unknown,Copper Unknown,Plastic Unknown",,,,118.5,75.5,58,,Assembly,,4
+A2822800208,"Pipe, Rear E-Drive Coolant Inlet",1,0.086,0.007,0.093,Metal,Steel Unknown,,,,192,55,27.38,,Assembly,1,3
+A2822800207,"Pipe, Rear E-Drive Coolant Outlet",1,0.061,0.007,0.068,Metal,Steel Unknown,,,,83,70,36.8,,Assembly,1,3
+A2822800161,"Gasket, Rear E-Drive Casing",1,0.031,,0.031,Metal,Steel Unknown,,VOLVO,32240219,332,320,,0.4,Part,,3
+A2821200052,"Harness, Rear E-Drive Oil Pump",1,0.109,,0.109,Wire Harness,Wire Harness,,,,598,,,,Assembly,,3
+A2822800218,"Stator, Rear E-Drive Resolver",1,0.146,0.017,0.163,Electric Motor,"Stator,Steel Unknown,Plastic PPS,Copper Unknown,Sealants",,,32391770,125,118,16,,Assembly,5,4
+A2822800206,"End Cover, Rear E-Drive Motor",1,0.695,0.05,0.745,Mixed Material,"Aluminium AlSi9Cu3,Sealants",,VOLVO,"32391155, 32263433",255,44,217,,Part,7,4
+A2822800303,"Rotor, Rear E-Drive Resolver",1,0.057,,0.057,Electric Motor,"Rotor,Steel Unknown",,,32362688,,,4.67,,Assembly,,5
+A2822800256,"Rotor, Rear E-Drive Motor",1,20.005,0.895,20.9,Electric Motor,"Rotor,Steel Unknown,Magnet,Aluminium Unknown",,,32415354,,355,,,Assembly,,5
+A2822800381,"Stator Assy, Rear E-Drive Motor",1,31.23,,31.23,Electric Motor,"Stator,Steel Unknown,Copper Unknown,Plastic Unknown,Adhesive",,,32362609,,360,,,Assembly,,5
+A2822800384,"Housing, Rear E-Drive Stator Assy",1,5.599,,5.599,Mixed Material,"Aluminium Unknown,Steel Unknown,Sealants",,,,340,272,320,,Assembly,,5
+A2822800247,"Casing, Rear E-Drive Motor Outer",1,8.865,,8.865,Mixed Material,"Aluminium Unknown,Sealants",,VOLVO,"32263216, 32415358",370,340,340,,Part,,4
+A2822800304,"Seal, Motor Housing Rear E-Drive Motor",2,0.035,,0.035,Elastomer,Elastomer EPDM,,,,,,6.23,,Part,,4
+A2822800222,"Brush, Rotor Rear E-Drive Motor",1,0.026,,0.026,Mixed Material,"Steel Unknown,Elastomer NBR,Fiber Unknown",,,32362249,,,8.73,,Assembly,,4
+A2821200611,"PCB, Rear E-Drive Motor",1,0.01,0.003,0.013,EE Components,PCB,,"SUN&LYNN CIRCUIT,VOLVO",32339706 02,54.78,38.63,11,,Assembly,2,4
+A2821200559,"Connector, Rear E-Drive Resolver Assy",1,0.025,0.006,0.031,EE Components,"Connector,Plastic PA66-GF30,Brass Unknown,Elastomer Unknown,Sealants",,TE CONNECTIVITY,2364785-1,63.5,46,41,,Assembly,2,4
+A2822800297,"Gear, Rear E-Drive Motor Output",1,0.402,0.008,0.41,Metal,Steel Unknown,,VOLVO,32339323 AE10 Q,,,32.67,,Part,,4
+A2821200558,"Jumper Harness, Rear E-Drive Resolver",1,0.011,,0.011,Wire Harness,Wire Harness,,,,60,,,,Assembly,,4
+A2822800398,"Oil Seal, Rear E-Drive Stator Housing",1,0.023,,0.023,Mixed Material,"Elastomer SBR,Steel Unknown",,,32255347,,,8.18,,Assembly,,4
+A2822800221,"Oil Seal, Rear E-drive Half Shaft Mounting",1,0.033,,0.033,Mixed Material,"Elastomer NBR,Steel Unknown",,,3238 2495,,,15.64,,Assembly,,4
+A2822800219,"Holder, Rear E-Drive 3-Phase Line Terminal",1,0.054,0.015,0.069,Mixed Material,"Plastic PPS-(GF+MD)50,Steel Unknown",,,32391569,99.39,58.66,51.28,,Assembly,2,4
+A2822800286,"Grommet, Rear E-Drive Resolver Harness",1,0.002,,0.002,Elastomer,Elastomer Silicone Rubber,,,,19.39,14.86,10.05,,Part,,4
+A2822800312,"Casing, Differential Side Final Drive Rear",1,6.859,,6.859,Mixed Material,"Aluminium AlSi9Cu3(Fe),Sealants",,,,410,124.5,345,,Part,,4
+A2822800243,"Ball, Oil Pressure Release Final Drive Rear",2,0.001,,0.001,Metal,Steel Unknown,,,,,,,,Part,,4
+A2822800374,"Plug, Oil Pressure Release Final Drive Rear",2,0.016,0.001,0.017,Metal,Steel Unknown,,,,,,11.2,,Part,1,4
+A2822800216,"Plunger, Oil Pressure Release Final Drive Rear",1,0.019,0.004,0.023,Mixed Material,"Aluminium Unknown,Steel Unknown",,,,,,53.54,,Assembly,,4
+A2822800242,"Plunger 2, Oil Pressure Release Final Drive Rear",2,0.062,0.002,0.064,Mixed Material,"Brass Unknown,Steel Unknown",,,,,,35.4,,Assembly,1,4
+A2822800397,"Seal, Oil Final Drive Rear",1,0.019,,0.019,Mixed Material,"Elastomer EPDM,Steel Unknown",,,,,,7.7,,Assembly,,4
+A2822800204,"Ring Gear, Final Drive Rear",1,2.386,0.102,2.488,Metal,Steel Unknown,,VOLVO,32339322,,,36.9,,Part,,4
+A2822800310,"Casing, Final Drive Rear Inner",1,4.028,0.487,4.515,Metal,Aluminium Unknown,,,,360,120,320,,Part,14,4
+A2822800203,"Drain Plug, Final Drive Rear",1,0.02,,0.02,Metal,Steel Unknown,,BULTEN AB,,,,17.73,,Part,1,4
+A2822800202,"Gasket, Final Drive Rear",1,0.03,,0.03,Mixed Material,"Steel Unknown,Elastomer Unknown",,,,297,,263,0.54,Assembly,,4
+A2822800233,"End Cap, Shaft Final Drive Rear",1,0.006,,0.006,Plastic,Plastic PA66-GF30,,,,,,9,,Part,,4
+A2822800239,"Magnet, Casing Final Drive Rear",1,0.013,,0.013,Others,Magnet,,,,25.3,19,,5.5,Part,,4
+A2822800281,"Magnet 2, Casing Final Drive Rear",1,0.012,,0.012,Others,Magnet,,,,,,,5.1,Part,,4
+A2822800236,"Fill Plug, Final Drive Rear",1,0.017,0.001,0.018,Metal,Steel Unknown,,,,,,15.2,,Part,1,4
+A2822800237,"Fill Plug 2, Final Drive Rear",1,0.007,0.001,0.008,Metal,Steel Unknown,,,,,,11.1,,Part,1,4
+A2822800273,"Friction Disc, Rear Final Drive Clutch",11,0.508,,0.508,Mixed Material,"Steel Unknown,Ceramic",,,,,,,1.8,Assembly,,5
+A2822800274,"Disc, Rear Final Drive Clutch",11,0.51,,0.51,Metal,Steel Unknown,,,,,,,1.2,Part,,5
+A2822800280,"Housing, Rear Final Drive Clutch",1,1.174,0.234,1.408,Metal,Steel Unknown,,,,,,113.8,,Assembly,,5
+A2822800314,"Diaphragm, Rear Final Drive Clutch",1,0.242,,0.242,Metal,Steel Unknown,,,,,,12.5,,Part,,5
+A2822800318,"Cap, Rear Final Drive Clutch",1,0.009,,0.009,Mixed Material,"Steel Unknown,Elastomer EPDM",,KACO,,,,7,,Assembly,1,5
+A2822800320,"Spacer, Rear Final Drive Clutch Housing",1,0.06,0.001,0.061,Metal,Steel Unknown,,,,,,,2,Part,2,5
+A2822800323,"Spacer 2, Rear Final Drive Clutch Housing",1,0.154,,0.154,Metal,Steel Unknown,,,,,,,4,Part,,5
+A2822800367,"Spacer 3, Rear Final Drive Clutch Housing",1,0.127,0.028,0.155,Metal,Steel Unknown,,,,,,,4,Part,,5
+A2822800369,"Diaphragm 2, Rear Final Drive Clutch",1,0.437,0.112,0.549,Mixed Material,"Aluminium AlSi9Cu3(Fe),Steel Unknown",,,,,,33.8,,Assembly,,5
+A2822800370,"Seal, Rear Final Drive Clutch",2,0.005,,0.005,Plastic,Plastic PTFE,,,,,,,2.3,Part,,5
+A2822800392,"Seal 2, Rear Final Drive Clutch",1,0.002,,0.002,Plastic,Plastic PTFE,,,,,,,2.3,Part,,5
+A2822800278,"Friction Disc, Rear Final Drive Clutch 2",15,0.768,,0.768,Mixed Material,"Steel Unknown,Ceramic",,,,,,1.8,,Assembly,,5
+A2822800276,"Disc, Rear Final Drive Clutch 2",15,0.534,,0.534,Metal,Steel Unknown,,,,,,,1,Part,,5
+A2822800277,"Disc 2, Rear Final Drive Clutch 2",1,0.153,,0.153,Metal,Steel Unknown,,,,,,,4,Part,,5
+A2822800279,"Housing, Rear Final Drive Clutch 2",1,2.133,0.241,2.374,Metal,Steel Unknown,,,,,,155,,Assembly,,5
+A2822800316,"Diaphragm, Rear Final Drive Clutch 2",1,0.28,,0.28,Metal,Steel Unknown,,,,,,17.7,,Assembly,,5
+A2822800319,"Cap, Rear Final Drive Clutch 2",1,0.009,,0.009,Mixed Material,"Steel Unknown,Elastomer EPDM",,KACO,,,,7,,Assembly,1,5
+A2822800325,"Hub, Rear Final Drive Clutch 2",1,0.686,,0.686,Metal,Steel Unknown,,,,,,90,,Part,,5
+A2822800321,"Spacer, Rear Final Drive Clutch 2 Housing",1,0.041,0.001,0.042,Metal,Steel Unknown,,,,,,,2,Part,2,5
+A2822800364,"Diaphragm 2, Rear Final Drive Clutch 2",1,0.341,0.033,0.374,Mixed Material,"Aluminium AlSi9Cu3(Fe),Steel Unknown",,,,,,34,,Assembly,,5
+A2822800366,"Seal, Rear Final Drive Clutch 2",1,0.001,,0.001,Plastic,Plastic PTFE,,,,,,,2.3,Part,,5
+A2822800368,"Spacer 2, Rear Final Drive Clutch 2 Housing",1,0.029,0.01,0.039,Metal,Steel Unknown,,,,,,,4,Part,,5
+A2822800391,"Seal 2, Rear Final Drive Clutch 2",2,0.004,,0.004,Plastic,Plastic MFA,,,,,,,2.4,Part,,5
+A2822800214,"Filter, Oil Supply Final Drive Rear",1,0.005,0.005,0.01,Mixed Material,"Plastic PA66,Steel Unknown",,,,43,25,17.2,,Assembly,2,4
+A2822800234,"Oil Seal, Differential Casing Outer Final Drive Rear",1,0.024,,0.024,Mixed Material,"Elastomer EPDM,Steel Unknown",,KACO,,,,15,,Assembly,,4
+A2822800300,"Oil Seal 2, Differential Casing Outer Final Drive Rear",1,0.017,,0.017,Mixed Material,"Elastomer EPDM,Steel Unknown",,,,,,7.12,,Assembly,,4
+A2822800308,"Casing, Final Drive Intermediate Rear",1,2.42,0.107,2.527,Mixed Material,"Aluminium ENAC46000,Steel Unknown,Sealants",,,,334,58,305,,Assembly,4,4
+A2822800335,"Carrier, Final Drive Planetary Gear Unit Rear",1,3.752,,3.752,Metal,Cast Iron Unknown,,,32240148,192,175,111.3,,Part,,5
+A2822800298,"Planet Gear, Final Drive Planetary Gear Unit Rear",3,3.67,0.34,4.01,Metal,Steel Unknown,,VOLVO,32339321 AE10Q,,,68.3,,Part,,5
+A2822800299,"Spacer, Rear Final Drive Planet Gear",3,0.049,,0.049,Metal,Steel Unknown,,,,,,6.5,,Part,,5
+A2822800361,"Hub, Final Drive Planetary Gear Unit Rear",1,0.702,0.028,0.73,Metal,Steel Unknown,,,,,,40,,Part,,5
+A2822800372,"Pin, Final Drive Planetary Gear Unit Planet Gear Rear",3,0.705,0.004,0.709,Metal,Steel Unknown,,,,,,105.5,,Part,,5
+A2822800241,"Drain Plug 2, Final Drive Rear",2,0.028,,0.028,Mixed Material,"Steel Unknown,Sealants",,,,,,12.08,,Part,1,4
+A2822800346,"Filter 2, Oil Supply Final Drive Rear",1,0.005,0.005,0.01,Mixed Material,"Plastic PA66,Plastic PA6,Steel Unknown",,,,43.4,25.5,17.1,,Assembly,2,4
+A2822800375,"Ball 2, Oil Pressure Release Final Drive Rear",2,0.001,,0.001,Metal,Steel Unknown,,,,,,,,Part,,4
+A2822800376,"Holder, Rear Final Drive Oil Pressure Release Ball",2,0.001,,0.001,Plastic,Plastic PA66,,,,12.6,6.1,6.1,,Part,,4
+A2822800377,"Holder 2, Rear Final Drive Oil Pressure Release Ball",2,0.001,,0.001,Plastic,Plastic PA66,,,,12.63,6.05,6.05,,Part,,4
+A2822800401,"Filter 3, Oil Supply Final Drive Rear",1,0.002,,0.002,Mixed Material,Plastic PA66,,,,55.3,25,5.4,,Assembly,,4
+A2821201109,"PCB, Rear E-Drive Oil Pump 2",1,0.011,,0.011,EE Components,PCB,,,,,,20.3,,Assembly,,4
+A2822800379,"Thermal Paste, Rear E-Drive Oil Pump 2",1,0.014,,0.014,Adhesives & Sealants,Sealants,,,,,,,,Part,,4
+A2822800378,"Top Cover, Rear E-Drive Oil Pump 2",1,0.024,,0.024,Mixed Material,"Plastic PBT-I-GF30,Metal Unknown",,,,,,33.5,,Assembly,,4
+A2822800380,"Pump Unit, Rear E-Drive Oil 2",1,0.675,,0.675,Electric Motor,"Pump,Steel Unknown,Aluminium Unknown,Plastic PA66-GF30,Plastic Unknown",,,,120,75.5,58,,Assembly,,4
+A2822800373,"Seal, Breather 2 Rear E-Drive",1,0.002,,0.002,Elastomer,Elastomer Silicone Rubber,,,,,,,2.5,Part,,3
+A2821200044,"Cable, Rear E-Drive Ground",1,0.021,0.013,0.034,Wire Harness,Wire Harness,,,,125,,,,Assembly,2,2
+A2821200059,"Cable 2, Rear E-Drive Ground",1,0.021,0.013,0.034,Wire Harness,Wire Harness,,,,117,,,,Assembly,2,2
+A2822800400,"Oil, Transmission Rear E-Drive",1,1.4,,1.4,Fluid,Lubricants,,,,,,,,Fluid,,2

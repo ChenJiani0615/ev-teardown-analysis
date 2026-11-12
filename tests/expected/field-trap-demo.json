@@ -1,0 +1,239 @@
+{
+  "part_count": 5,
+  "total_mass_kg": 0.822,
+  "fastener_mass_kg": 0.048,
+  "parts": [
+    {
+      "cs_part": "TEST-0001",
+      "name": null,
+      "qty": 1.0,
+      "total_weight": 0.10500000000000001,
+      "weight_source": "derived",
+      "material_group": "Mixed Material",
+      "material_species": "Aluminium Unknown, Sealants",
+      "material_tested": null,
+      "manufacturer": null,
+      "part_type": "Assembly",
+      "interfaces": 2.0,
+      "missing": [
+        "total_weight"
+      ],
+      "share": 0.12773722627737227
+    },
+    {
+      "cs_part": "TEST-0002",
+      "name": null,
+      "qty": 1.0,
+      "total_weight": 0.25,
+      "weight_source": "total",
+      "material_group": "Metal",
+      "material_species": "Aluminium ENAC43500",
+      "material_tested": null,
+      "manufacturer": null,
+      "part_type": "Part",
+      "interfaces": null,
+      "missing": [],
+      "share": 0.3041362530413625
+    },
+    {
+      "cs_part": "TEST-0002",
+      "name": null,
+      "qty": 1.0,
+      "total_weight": 0.25,
+      "weight_source": "total",
+      "material_group": "Metal",
+      "material_species": "Aluminium ENAC43500",
+      "material_tested": null,
+      "manufacturer": null,
+      "part_type": "Part",
+      "interfaces": null,
+      "missing": [],
+      "share": 0.3041362530413625
+    },
+    {
+      "cs_part": "TEST-0003",
+      "name": null,
+      "qty": 1.0,
+      "total_weight": 0.167,
+      "weight_source": "total",
+      "material_group": "Mixed Material",
+      "material_species": "Aluminium Unknown, Sealants",
+      "material_tested": null,
+      "manufacturer": null,
+      "part_type": "Assembly",
+      "interfaces": 13.0,
+      "missing": [],
+      "share": 0.20316301703163017
+    },
+    {
+      "cs_part": "TEST-0004",
+      "name": null,
+      "qty": 1.0,
+      "total_weight": 0.05,
+      "weight_source": "total",
+      "material_group": "EE Components",
+      "material_species": "PCB",
+      "material_tested": null,
+      "manufacturer": null,
+      "part_type": "Part",
+      "interfaces": 2.0,
+      "missing": [],
+      "share": 0.06082725060827251
+    }
+  ],
+  "groups": {
+    "Metal": 0.5,
+    "Mixed Material": 0.272,
+    "EE Components": 0.05
+  },
+  "issues": [
+    {
+      "part": "TEST-0001",
+      "type": "缺 total_weight",
+      "detail": "按 part+fastener 推算，需回查原始记录"
+    },
+    {
+      "part": "TEST-0002",
+      "type": "重量不自洽",
+      "detail": "part+fastener=0.2100 vs total=0.2500"
+    },
+    {
+      "part": "TEST-0002",
+      "type": "重量不自洽",
+      "detail": "part+fastener=0.2100 vs total=0.2500"
+    },
+    {
+      "part": "TEST-0003",
+      "type": "尺寸字段疑似错位",
+      "detail": "length=6.0 远小于 width/height=235.0/235.0"
+    },
+    {
+      "part": "TEST-0004",
+      "type": "厚度字段可疑",
+      "detail": "thickness=10.0 >= 最小外形尺寸 10.0"
+    },
+    {
+      "part": "TEST-0002",
+      "type": "重复件号",
+      "detail": "出现 2 次，合计前需去重"
+    }
+  ],
+  "power_gap_hint": true,
+  "tim_evidence": {
+    "parts": [],
+    "mass_kg": 0
+  },
+  "function_slots": [
+    {
+      "slot": "电能变换",
+      "parts": [],
+      "covered": false,
+      "piece_count": 0
+    },
+    {
+      "slot": "开关动作",
+      "parts": [],
+      "covered": false,
+      "piece_count": 0
+    },
+    {
+      "slot": "储能与滤波",
+      "parts": [],
+      "covered": false,
+      "piece_count": 0
+    },
+    {
+      "slot": "电流承载与分配",
+      "parts": [],
+      "covered": false,
+      "piece_count": 0
+    },
+    {
+      "slot": "热传导与散热",
+      "parts": [],
+      "covered": false,
+      "piece_count": 0
+    },
+    {
+      "slot": "电气绝缘与隔离",
+      "parts": [],
+      "covered": false,
+      "piece_count": 0
+    },
+    {
+      "slot": "检测与传感",
+      "parts": [],
+      "covered": false,
+      "piece_count": 0
+    },
+    {
+      "slot": "密封与防护",
+      "parts": [
+        "TEST-0001",
+        "TEST-0003"
+      ],
+      "covered": true,
+      "piece_count": 2.0
+    },
+    {
+      "slot": "紧固与定位",
+      "parts": [],
+      "covered": false,
+      "piece_count": 0
+    }
+  ],
+  "integration_level": {
+    "packaging": {
+      "axis": "P",
+      "level": null,
+      "reasons": [
+        "无任何器件本体件号 → **不能判定 P 轴**，只能给上限",
+        "清单无基板/覆铜类件号 → 无 P2/P3 所需的绝缘基板证据（也可能在未展开 Assembly 内）"
+      ],
+      "evidence_type": "无器件级证据",
+      "upper_limit": "2 个 Assembly 叶子未分解，合计 0.272 kg（33.1%）"
+    },
+    "thermal": {
+      "axis": "T",
+      "level": null,
+      "reasons": [
+        "无冷却板、无冷却液接口 → 倾向 T0（无主动冷却），但需照片确认",
+        "T 轴必须另记三属性（脚本读不到，需人工补）：冷板材料 / TIM 层数与形态 / 压紧力是否解耦"
+      ],
+      "evidence_type": "无热路件号",
+      "plate_count": 0,
+      "plate_mass_kg": 0,
+      "tim_count": 0,
+      "tim_mass_kg": 0,
+      "port_count": 0,
+      "stack_count": 0,
+      "cooling_part_ids": [],
+      "upper_limit": "2 个 Assembly 叶子未分解，合计 0.272 kg（33.1%）"
+    },
+    "electrical": {
+      "axis": "E",
+      "fields": {
+        "E-a 拓扑": "不能判定（拓扑不能从件号反推，需原理图或板级反演）",
+        "E-b 开关器件": "无器件本体件号 → 不能判定",
+        "E-c 互连": "无母排件号 → 可能为 PCB 铜箔或板载，不能排除",
+        "E-d 驱动与检测": "PCB 1 个件号、传感/分流 0 个件号；集中/分布式驱动不能判定"
+      },
+      "evidence_type": "件名关键词，非器件参数"
+    },
+    "mounting": {
+      "axis": "M",
+      "level": null,
+      "reasons": [
+        "清单**未见紧固件/压紧件/焊接/粘接任一证据** → 不能判定 M 轴。紧固件常按 Standard Part 另表列出或按整机计重，缺它不说明没有螺钉，只说明本清单不含",
+        "M 轴必须另记两属性（脚本读不到，需人工补）：定位方式（销/台阶/仿形槽/无）、界面压力是否与器件本体解耦"
+      ],
+      "evidence_type": "件号本体 + 紧固/定位件计数",
+      "locator_count": 0,
+      "clamp_count": 0,
+      "upper_limit": "2 个 Assembly 叶子未分解，合计 0.272 kg（33.1%）"
+    },
+    "confidence_note": "置信度不由脚本给：脚本只统计件号形态（证据类型），结论可信度需分析者按证据一致性判断。两者是不同概念，见 architecture-discovery.md §八.零。 **本清单没有零件名称列**：形态判定只能退化为靠材料种类，P/T/M 三轴的上限因此**显著降低**——材料种类能说明\"是铜/铁氧体/弹性体\"，不能说明\"是冷板还是母排\"。凡本清单给出的 P/T/M 等级，一律只能作为候选，置信度至多中低。",
+    "assembly_count": 2,
+    "assembly_mass_kg": 0.272
+  }
+}

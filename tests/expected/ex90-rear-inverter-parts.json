@@ -1,0 +1,324 @@
+{
+  "part_count": 12,
+  "total_mass_kg": 6.873,
+  "fastener_mass_kg": 0.163,
+  "parts": [
+    {
+      "cs_part": "A2821200132",
+      "name": null,
+      "qty": 1.0,
+      "total_weight": 0.529,
+      "weight_source": "total",
+      "material_group": "Mixed Material",
+      "material_species": "Copper Unknown, Plastic Unknown, Ferrite, Steel Unknown, Sticker",
+      "material_tested": "Plastic PBT",
+      "manufacturer": null,
+      "part_type": "Assembly",
+      "interfaces": 2.0,
+      "missing": [],
+      "share": 0.07696784519132839
+    },
+    {
+      "cs_part": "A2822800057",
+      "name": null,
+      "qty": 1.0,
+      "total_weight": 0.167,
+      "weight_source": "total",
+      "material_group": "Mixed Material",
+      "material_species": "Aluminium Unknown, Sealants",
+      "material_tested": null,
+      "manufacturer": null,
+      "part_type": "Assembly",
+      "interfaces": 13.0,
+      "missing": [],
+      "share": 0.02429797759348174
+    },
+    {
+      "cs_part": "A2822800108",
+      "name": null,
+      "qty": 1.0,
+      "total_weight": 2.463,
+      "weight_source": "total",
+      "material_group": "Metal",
+      "material_species": "Aluminium ENAC43500",
+      "material_tested": null,
+      "manufacturer": null,
+      "part_type": "Part",
+      "interfaces": null,
+      "missing": [],
+      "share": 0.35835879528590137
+    },
+    {
+      "cs_part": "A2821200241",
+      "name": null,
+      "qty": 1.0,
+      "total_weight": 0.106,
+      "weight_source": "total",
+      "material_group": "EE Components",
+      "material_species": "Sensors, Plastic PBT-GF30",
+      "material_tested": null,
+      "manufacturer": "LEM INTERNATIONAL",
+      "part_type": "Assembly",
+      "interfaces": 2.0,
+      "missing": [],
+      "share": 0.015422668412629128
+    },
+    {
+      "cs_part": "A2821200150",
+      "name": null,
+      "qty": 1.0,
+      "total_weight": 0.027,
+      "weight_source": "total",
+      "material_group": "EE Components",
+      "material_species": "PCB",
+      "material_tested": null,
+      "manufacturer": null,
+      "part_type": "Assembly",
+      "interfaces": 2.0,
+      "missing": [],
+      "share": 0.00392841553906591
+    },
+    {
+      "cs_part": "A2821201070",
+      "name": null,
+      "qty": 1.0,
+      "total_weight": 0.194,
+      "weight_source": "total",
+      "material_group": "EE Components",
+      "material_species": "PCB",
+      "material_tested": null,
+      "manufacturer": null,
+      "part_type": "Assembly",
+      "interfaces": 10.0,
+      "missing": [],
+      "share": 0.02822639313254765
+    },
+    {
+      "cs_part": "A2822800181",
+      "name": null,
+      "qty": 1.0,
+      "total_weight": 0.076,
+      "weight_source": "total",
+      "material_group": "Mixed Material",
+      "material_species": "Plastic PPA-GF35, Steel Unknown, Brass Unknown",
+      "material_tested": "Plastic PPA",
+      "manufacturer": null,
+      "part_type": "Assembly",
+      "interfaces": 8.0,
+      "missing": [],
+      "share": 0.01105776225811145
+    },
+    {
+      "cs_part": "A2821200208",
+      "name": null,
+      "qty": 1.0,
+      "total_weight": 0.34,
+      "weight_source": "total",
+      "material_group": "EE Components",
+      "material_species": "EE Components, Plastic PPS-GF30, Copper Unknown, Aluminium Unknown, Steel Unknown",
+      "material_tested": "Plastic PPS",
+      "manufacturer": null,
+      "part_type": "Assembly",
+      "interfaces": 4.0,
+      "missing": [],
+      "share": 0.04946893641786702
+    },
+    {
+      "cs_part": "A2821200401",
+      "name": null,
+      "qty": 1.0,
+      "total_weight": 0.235,
+      "weight_source": "total",
+      "material_group": "EE Components",
+      "material_species": "PCB",
+      "material_tested": null,
+      "manufacturer": null,
+      "part_type": "Assembly",
+      "interfaces": 6.0,
+      "missing": [],
+      "share": 0.03419176487705514
+    },
+    {
+      "cs_part": "A2821200152",
+      "name": null,
+      "qty": 1.0,
+      "total_weight": 1.277,
+      "weight_source": "total",
+      "material_group": "EE Components",
+      "material_species": "Capacitor, Plastic PPS-GF40, Plastic EP, Plastic PP, Plastic Unknown, Copper Unknown, Sealants, Steel Unknown",
+      "material_tested": null,
+      "manufacturer": "SAMWHA CAPACITOR GROUP",
+      "part_type": "Assembly",
+      "interfaces": 16.0,
+      "missing": [],
+      "share": 0.1857995053106358
+    },
+    {
+      "cs_part": "A2821200138",
+      "name": null,
+      "qty": 1.0,
+      "total_weight": 0.055,
+      "weight_source": "total",
+      "material_group": "Mixed Material",
+      "material_species": "Plastic PBT-GF30, Brass Unknown, Aluminium Unknown",
+      "material_tested": "Plastic PBT",
+      "manufacturer": null,
+      "part_type": "Assembly",
+      "interfaces": 3.0,
+      "missing": [],
+      "share": 0.008002327949949076
+    },
+    {
+      "cs_part": "A2822800094",
+      "name": null,
+      "qty": 1.0,
+      "total_weight": 1.404,
+      "weight_source": "total",
+      "material_group": "Mixed Material",
+      "material_species": "Aluminium ENAC43500, Sealants, Steel Unknown",
+      "material_tested": null,
+      "manufacturer": null,
+      "part_type": "Assembly",
+      "interfaces": 14.0,
+      "missing": [],
+      "share": 0.2042776080314273
+    }
+  ],
+  "groups": {
+    "Metal": 2.463,
+    "Mixed Material": 2.231,
+    "EE Components": 2.179
+  },
+  "issues": [
+    {
+      "part": "A2822800057",
+      "type": "尺寸字段疑似错位",
+      "detail": "length=6.0 远小于 width/height=235.0/235.0"
+    }
+  ],
+  "power_gap_hint": true,
+  "tim_evidence": {
+    "parts": [],
+    "mass_kg": 0
+  },
+  "function_slots": [
+    {
+      "slot": "电能变换",
+      "parts": [],
+      "covered": false,
+      "piece_count": 0
+    },
+    {
+      "slot": "开关动作",
+      "parts": [],
+      "covered": false,
+      "piece_count": 0
+    },
+    {
+      "slot": "储能与滤波",
+      "parts": [
+        "A2821200132",
+        "A2821200152"
+      ],
+      "covered": true,
+      "piece_count": 2.0
+    },
+    {
+      "slot": "电流承载与分配",
+      "parts": [],
+      "covered": false,
+      "piece_count": 0
+    },
+    {
+      "slot": "热传导与散热",
+      "parts": [],
+      "covered": false,
+      "piece_count": 0
+    },
+    {
+      "slot": "电气绝缘与隔离",
+      "parts": [],
+      "covered": false,
+      "piece_count": 0
+    },
+    {
+      "slot": "检测与传感",
+      "parts": [
+        "A2821200241"
+      ],
+      "covered": true,
+      "piece_count": 1.0
+    },
+    {
+      "slot": "密封与防护",
+      "parts": [
+        "A2822800057",
+        "A2821200152",
+        "A2822800094"
+      ],
+      "covered": true,
+      "piece_count": 3.0
+    },
+    {
+      "slot": "紧固与定位",
+      "parts": [],
+      "covered": false,
+      "piece_count": 0
+    }
+  ],
+  "integration_level": {
+    "packaging": {
+      "axis": "P",
+      "level": null,
+      "reasons": [
+        "无任何器件本体件号 → **不能判定 P 轴**，只能给上限",
+        "清单无基板/覆铜类件号 → 无 P2/P3 所需的绝缘基板证据（也可能在未展开 Assembly 内）"
+      ],
+      "evidence_type": "无器件级证据",
+      "upper_limit": "11 个 Assembly 叶子未分解，合计 4.410 kg（64.2%）"
+    },
+    "thermal": {
+      "axis": "T",
+      "level": null,
+      "reasons": [
+        "无冷却板、无冷却液接口 → 倾向 T0（无主动冷却），但需照片确认",
+        "T 轴必须另记三属性（脚本读不到，需人工补）：冷板材料 / TIM 层数与形态 / 压紧力是否解耦"
+      ],
+      "evidence_type": "无热路件号",
+      "plate_count": 0,
+      "plate_mass_kg": 0,
+      "tim_count": 0,
+      "tim_mass_kg": 0,
+      "port_count": 0,
+      "stack_count": 0,
+      "cooling_part_ids": [],
+      "upper_limit": "11 个 Assembly 叶子未分解，合计 4.410 kg（64.2%）"
+    },
+    "electrical": {
+      "axis": "E",
+      "fields": {
+        "E-a 拓扑": "不能判定（拓扑不能从件号反推，需原理图或板级反演）",
+        "E-b 开关器件": "无器件本体件号 → 不能判定",
+        "E-c 互连": "无母排件号 → 可能为 PCB 铜箔或板载，不能排除",
+        "E-d 驱动与检测": "PCB 3 个件号、传感/分流 1 个件号（A2821200241）；集中/分布式驱动不能判定",
+        "备注": "检出磁件本体 1 个件号（A2821200132）→ 存在共模/差模抑制需求，属 E 轴与储能槽交叉证据"
+      },
+      "evidence_type": "件名关键词，非器件参数"
+    },
+    "mounting": {
+      "axis": "M",
+      "level": null,
+      "reasons": [
+        "清单**未见紧固件/压紧件/焊接/粘接任一证据** → 不能判定 M 轴。紧固件常按 Standard Part 另表列出或按整机计重，缺它不说明没有螺钉，只说明本清单不含",
+        "M 轴必须另记两属性（脚本读不到，需人工补）：定位方式（销/台阶/仿形槽/无）、界面压力是否与器件本体解耦"
+      ],
+      "evidence_type": "件号本体 + 紧固/定位件计数",
+      "locator_count": 0,
+      "clamp_count": 0,
+      "upper_limit": "11 个 Assembly 叶子未分解，合计 4.410 kg（64.2%）"
+    },
+    "confidence_note": "置信度不由脚本给：脚本只统计件号形态（证据类型），结论可信度需分析者按证据一致性判断。两者是不同概念，见 architecture-discovery.md §八.零。 **本清单没有零件名称列**：形态判定只能退化为靠材料种类，P/T/M 三轴的上限因此**显著降低**——材料种类能说明\"是铜/铁氧体/弹性体\"，不能说明\"是冷板还是母排\"。凡本清单给出的 P/T/M 等级，一律只能作为候选，置信度至多中低。",
+    "assembly_count": 11,
+    "assembly_mass_kg": 4.41
+  }
+}
