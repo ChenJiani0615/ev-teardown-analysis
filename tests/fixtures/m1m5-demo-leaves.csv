@@ -1,0 +1,11 @@
+CS Part,Name,Quantity,Part Weight,Fastener Weight,Total Weight (kg),Material Group,Material Species,Material Species (Tested),Manufacturer,Marking Number,Length,Width,Height,Thickness (T),Part Type,Number of Interface,Depth,Parent Part No,Mass Accounting
+S01,"PCB, Power Stage",1,0.120,,0.120,Composite,FR4,,,,180,140,1.6,,PCB,4,,,Parent
+S02,"MOSFET, SiC",12,0.004,,0.048,Electronic,SiC,,,,10,8,1,,Discrete,3,,,Leaf
+S03,"Film Capacitor, DC-Link",6,0.032,,0.192,Electronic,PPS,,,,40,25,15,,Capacitor,2,,,Leaf
+S04,"Screw, M5",9,0.006,,0.054,Metal,Steel,,,,20,5,,,Fastener,,,,
+S05,"Aluminium Heatsink, Power Module",1,0.480,,0.480,Metal,AlSi10Mg,,,,120,90,12,,Heatsink,,,,
+S06,"O-ring, Cooling",2,0.003,,0.006,Elastomer,EPDM,,,,60,3,,,Seal,,,,
+S07,"Housing, Bottom",1,0.860,,0.860,Metal,AlSi10Mg,,,,200,160,30,,Housing,6,,,Parent
+S08,"Connector, HV",1,0.045,,0.045,Plastic,PBT,,,,50,30,20,,Connector,2,,,Leaf
+S09,"Ferrite Core, Current Sensor",2,0.018,,0.036,Magnetic,Ferrite,,,,15,10,5,,Core,,,,
+S10,"Thermal Pad, Power Module",1,0.030,,0.030,Elastomer,Silicone,,,,100,80,2,,Pad,,,,

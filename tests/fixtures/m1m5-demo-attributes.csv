@@ -1,0 +1,3 @@
+CS Part,Procurement Object,Bottom-up Model (Y/N),AL (kg),CU (kg),STEEL (kg),PLASTIC (kg),ELASTOMER (kg),FERRITE (kg),FOAM (kg),ADHESIVE (kg),OTHER (kg),Material Split Basis,Notes
+S05,自制件,Y,0.480,0,0,0,0,0,0,0,0,拆解称重,散热片整体压铸
+S07,自制件,Y,0.860,0,0,0,0,0,0,0,0,拆解称重,壳体压铸
