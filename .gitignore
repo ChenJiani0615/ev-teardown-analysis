@@ -14,6 +14,9 @@
 !/tools/
 # tools 里的下划线开头文件是临时调试产物（含车型实测数据），不上传
 /tools/_*
+
+# 放行：sample 演示目录（脱敏样例：照片 + 工作簿 + PPT）
+!/samples/
 # deck 生成器硬编码了 EX90 实测成本数字与照片路径，属分析产物，不上传
 /tools/build_inverter_deck_en.py
 
