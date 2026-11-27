@@ -1,12 +1,26 @@
 ---
 name: should-cost-engineering
-description: "硬件拆解的自下而上 Should-Cost 核算与降本分析（7 表工作簿，活公式）。Use when: 用户要求把 BOM/拆解结果做成成本模型、估算材料与加工装配费、对比报价与应成本、做敏感性分析或降本方案量化，例如逆变器、OBC、DC-DC、电驱、BMS、域控的成本破拆；也用于核对重复计价、重复计重、良率链与工装摊销；含单层三层口径（自制件供应商报价/外购件过手/我方增值装配）、外购件价格取证分级（A/B/C/D/E）、宽区间取均值规则，以及无报价时用行业基准价目录把空白补成 Class E 可辨识区间的规则（Step 5.8，通用、与产品无关）。"
+description: "硬件拆解的自下而上 Should-Cost 核算与降本分析（7 表工作簿，活公式）。Use when: 用户要求把 BOM/拆解结果做成成本模型、估算材料与加工装配费、对比报价与应成本、做敏感性分析或降本方案量化，例如逆变器、OBC、DC-DC、电驱、BMS、域控的成本破拆；也用于核对重复计价、重复计重、良率链与工装摊销；含单层三层口径（自制件供应商报价/外购件过手/我方增值装配）、外购件价格取证分级（A/B/C/D/E）、宽区间取均值规则，以及无报价时用行业基准价目录把空白补成 Class E 可辨识区间的规则（Step 5.8，通用、与产品无关）。需要 JSON 模型驱动、每数与区间可离线复算、并输出 calculation.json / ppt_export.json 的版本时，改用 should-cost-engineering-v2。"
 argument-hint: "<车型/产品> <总成> [--bom 文件] [--quote 报价] [--volume 年产量]"
 ---
 
-# 拆解件 Should-Cost 核算
+# 拆解件 Should-Cost 核算（v1）
 
 把"拆解得到的几何/材料/工艺事实"转成**可追溯的成本模型**，并回答三件事：钱花在哪、哪一项最不确定、改哪里最划算。
+
+> **版本关系（v1 / v2 并存，均可用）**
+>
+> | | 本 skill（v1） | `should-cost-engineering-v2`（v2） |
+> |---|---|---|
+> | 驱动 | CLI + 叶件 CSV（`--bom/--attrs/--prices/--catalog`） | JSON 模型（`cost_model.json`），离线计算无 eval |
+> | 表 3 / 表 5 | `3-ProcessCost` / `5-Opportunities` | **`3-VA` / `5-Gap`** |
+> | VA 口径 | 加工 + 装配 + 测试，另有 Step 4.5 单层三层（供应商报价 / 外购过手 / 我方增值） | `PDC + PDOH + PAC + MOH`，L0–L3，保留合并项与 VA-Unallocated |
+> | 缺价处理 | Step 5.8 基准价目录补成 Class E 区间，**每行必须有价** | A–E + **U 留空不补零** |
+> | 独有能力 | 三层商务口径、Class E 三级披露（3a/3b/3c）、PPT deck 生成 | 边界归一（VA→MAT 搬移且 PPC 不变）、原件复核状态、`ppt_export.json` 交接、模型 sha256 |
+>
+> **两套 7 表不可互相读公式**：sheet 名 `3`/`5` 不同，公式按表名引用，不能混读或交叉引用。
+> 选型：有 BOM 要金额、要 PPT → 本 skill；要一份能对外讲、每数与区间都可复算的模型 → v2。
+> 同一产品若两版都建过模型，**不要混用两边数字**，先在 `7-Evidence` 写明采用的是哪一版。
 
 > 与 `ev-teardown-benchmark` 的分工：那边出结构/材料结论并**禁止编金额**；本 skill 负责在被要求金额时建立模型。两者共用同一套证据状态与 BOM 规则。
 >
